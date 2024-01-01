@@ -12,17 +12,10 @@ class _SignupscreenState extends State<Signupscreen> {
     return Scaffold(
       appBar: AppBar(
         title: Container(
+          height: 50,
+          width: 1500,
+          color: Colors.lightBlueAccent,
           child: Text("SignUp Screen"))),
-          body: Container(color: Colors.lightBlueAccent,),
     );
   }
 }
-/*
-echo "# Flutter_Projectsbyme" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Kns-shivani10/Flutter_Projectsbyme.git
-git push -u origin main
-*/
